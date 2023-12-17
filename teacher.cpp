@@ -5,6 +5,13 @@ Teacher::Teacher()
 
 }
 
+Teacher::Teacher(string n, int b, string d)
+{
+    this->setName(n);
+    this->setBirthYear(b);
+    department=d;
+}
+
 string Teacher::getDepartment() const
 {
     return department;

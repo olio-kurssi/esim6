@@ -2,18 +2,15 @@
 
 ClassRoom::ClassRoom()
 {
-    objStudent1 = new Student;
-    objStudent2 = new Student;
+    objStudent = new Student;
     objTeacher = new Teacher;
 }
 
 ClassRoom::~ClassRoom()
 {
-    delete objStudent1;
-    delete objStudent2;
+    delete objStudent;
     delete objTeacher;
-    objStudent1=nullptr;
-    objStudent2=nullptr;
+    objStudent=nullptr;
     objTeacher=nullptr;
 }
 

@@ -1,9 +1,9 @@
-# esim4 Koostaminen
+# esim6 Koostaminen
 
 Tässä esimerkissä on luokat Person, Student ja Teacher, kuten esimerkissä 3.
 
-Tässä on lisäksi luokka **ClassRoom**, joka **koostaa** eli sisältää luokkien Student ja Person olioita.
-Luokka ClassRoom sisältää kaksi Student luokan oliota ja yhden Teacher luokan olion.
+Tässä on lisäksi luokka **ClassRoom**, joka **koostaa** eli sisältää luokkien Student ja Person oliot.
+
 
 Kannattaa tutkia erityisesti ClassRoom luokan koodia ja main.cpp:tä. 
 

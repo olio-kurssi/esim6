@@ -11,6 +11,7 @@ class Teacher : public Person
 {
 public:
     Teacher();
+    Teacher(string n, int b, string d);
     string getDepartment() const;
     void setDepartment(const string &newDepartment);
 
