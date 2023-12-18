@@ -7,3 +7,5 @@ Tässä on lisäksi luokka **ClassRoom**, joka **koostaa** eli sisältää luokk
 
 Kannattaa tutkia erityisesti ClassRoom luokan koodia ja main.cpp:tä. 
 
+Sovelluksen luokkakaavion näyttää tältä <br>
+<img src="ClassDiagram.png">
