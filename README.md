@@ -11,7 +11,7 @@ Kannattaa tutkia erityisesti ClassRoom luokan koodia ja main.cpp:tä.
 VisualStudiolla tehtynä sovelluksen luokkakaavion näyttää tältä <br>
 <img src="ClassDiagram.png">
 
-Tein esimerkissä niin, että main.cpp:ssä luodaan Classroom luokan olio. Classroomin konstruktorissa luodaan  Teacher olio (objTeacher) ja Student oliot(objStudent1 ja objStudent2). Niiden arvot kuitenkin asetetaan main.cpp:ssä, jonka sisältö on alla. 
+Tein esimerkissä niin, että main.cpp:ssä luodaan Classroom luokan olio. Classroomin konstruktorissa luodaan  Teacher olio (objTeacher) ja Student oliot (objStudent1 ja objStudent2). Niiden arvot kuitenkin asetetaan main.cpp:ssä, jonka sisältö on alla. 
 
 ## main.cpp 
 <pre>
