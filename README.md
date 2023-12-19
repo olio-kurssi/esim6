@@ -8,5 +8,5 @@ Kyseessä on siis **vahva kooste** eli **composition**.
 
 Kannattaa tutkia erityisesti ClassRoom luokan koodia ja main.cpp:tä. 
 
-Sovelluksen luokkakaavion näyttää tältä <br>
+VisualStudiolla tehtynä sovelluksen luokkakaavion näyttää tältä <br>
 <img src="ClassDiagram.png">
