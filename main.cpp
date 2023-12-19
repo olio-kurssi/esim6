@@ -12,26 +12,20 @@ int main()
     ClassRoom *objectClassroom = new ClassRoom;
     objectClassroom->setClassroomName("5b301");
 
-    objectClassroom->objStudent->setName("Teppo Testi");
-    objectClassroom->objStudent->setBirthYear(1999);
-    objectClassroom->objStudent->setGroupName("tvt23spl");
+    objectClassroom->objStudent1->setName("Teppo Testi");
+    objectClassroom->objStudent1->setBirthYear(1999);
+    objectClassroom->objStudent1->setGroupName("tvt23spl");
+
+    objectClassroom->objStudent2->setName("Liisa Joki");
+    objectClassroom->objStudent2->setBirthYear(1998);
+    objectClassroom->objStudent2->setGroupName("tvt23sp0");
 
     objectClassroom->objTeacher->setName("Mauno Opettaja");
     objectClassroom->objTeacher->setBirthYear(1982);
     objectClassroom->objTeacher->setDepartment("Tietotekniikka");
 
-    cout<<"Luokkahuoneen "<<objectClassroom->getClassroomName()<<" kokoonpano"<<endl;
+    objectClassroom->showClassroomData();
 
-    cout<<objectClassroom->objStudent->getName()<<endl;
-    cout<<objectClassroom->objStudent->getBirthYear()<<endl;
-    cout<<objectClassroom->objStudent->getGroupName()<<endl;
-    cout<<"**********************************\n";
-
-
-    cout<<objectClassroom->objTeacher->getName()<<endl;
-    cout<<objectClassroom->objTeacher->getBirthYear()<<endl;
-    cout<<objectClassroom->objTeacher->getDepartment()<<endl;
-    cout<<"**********************************\n";
     delete objectClassroom;
     objectClassroom=nullptr;
     return 0;

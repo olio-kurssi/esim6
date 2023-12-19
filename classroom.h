@@ -15,8 +15,10 @@ public:
     ~ClassRoom();
     string getClassroomName() const;
     void setClassroomName(const string &newClassroomName);
-    Student *objStudent;
+    Student *objStudent1;
+    Student *objStudent2;
     Teacher *objTeacher;
+    void showClassroomData();
 
 private:
     string classroomName;
