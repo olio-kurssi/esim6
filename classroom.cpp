@@ -2,9 +2,9 @@
 
 ClassRoom::ClassRoom()
 {
-    objStudent1 = new Student;
-    objStudent2 = new Student;
-    objTeacher = new Teacher;
+    objStudent1=new Student;
+    objStudent2=new Student;
+    objTeacher=new Teacher;
 }
 
 ClassRoom::~ClassRoom()
@@ -25,6 +25,21 @@ string ClassRoom::getClassroomName() const
 void ClassRoom::setClassroomName(const string &newClassroomName)
 {
     classroomName = newClassroomName;
+}
+
+void ClassRoom::setClassRoomPersons()
+{
+    objStudent1->setName("Teppo Testi");
+    objStudent1->setBirthYear(1999);
+    objStudent1->setGroupName("tvt23spl");
+
+    objStudent2->setName("Liisa Joki");
+    objStudent2->setBirthYear(1998);
+    objStudent2->setGroupName("tvt23sp0");
+
+    objTeacher->setName("Mauno Opettaja");
+    objTeacher->setBirthYear(1982);
+    objTeacher->setDepartment("Tietotekniikka");
 }
 
 void ClassRoom::showClassroomData()

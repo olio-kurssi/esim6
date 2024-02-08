@@ -15,13 +15,14 @@ public:
     ~ClassRoom();
     string getClassroomName() const;
     void setClassroomName(const string &newClassroomName);
-    Student *objStudent1;
-    Student *objStudent2;
-    Teacher *objTeacher;
+    void setClassRoomPersons();
     void showClassroomData();
 
 private:
     string classroomName;
+    Student *objStudent1;
+    Student *objStudent2;
+    Teacher *objTeacher;
 };
 
 #endif // CLASSROOM_H
