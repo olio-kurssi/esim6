@@ -7,7 +7,6 @@ Kyseessä on siis **vahva kooste** eli **composition**.
 
 Kannattaa tutkia erityisesti ClassRoom luokan koodia ja main.cpp:tä. 
 
-VisualStudiolla tehtynä sovelluksen luokkakaavion näyttää tältä <br>
-<img src="ClassDiagram.png">
+
 
 </pre>
