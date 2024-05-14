@@ -7,6 +7,7 @@ Kyseessä on siis **vahva kooste** eli **composition**.
 
 Kannattaa tutkia erityisesti ClassRoom luokan koodia ja main.cpp:tä. 
 
+Esimerkin luokkadiagrammi on seuraava 
 
+<img src="composition.png" width="600">
 
-</pre>
